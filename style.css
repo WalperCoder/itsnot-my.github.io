@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(26, 26, 26);
+    color: rgb(212, 118, 154);
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.head{
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 5px;
+    box-shadow: 10px 5px 5px rgb(255, 149, 190);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.background-main{
+    background-image: url(img/mainimg.jpg);
+    padding: 10px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-lyric{
+    margin-top: 480px;
+    
+}
+
+.main-lyric p{
+    margin: -5px 0;
+    font-weight: 900;
+    border-radius: 20px;
+    margin-right: 800px;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.main-lyric h3{
+    margin:4px 700px 5px 80px ;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+.mini-block{
+    margin: 30px 0;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid rgb(201, 114, 147);
+}
+
+.mini-lyric{
+    -webkit-text-stroke: 0.2px black;
+    font-weight: 600;
+}
+
+.mini-lyric p{
+    text-align: center;
+}
+
+.mini-block-2{
+    float: right;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 3px solid rgb(212, 118, 154);
+    box-shadow: 1px 1px 5px rgb(255, 149, 190);
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.player-block{
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: 640px 600px;
+    background-color: black;
+    border: 1px solid rgb(212, 118, 154);
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+
+.main-player{
+    display: grid;
+    grid-template-columns: 330px 300px;
+    padding: 10px 0 10px 20px;
+}
+
+.player-img img{
+    width: 300px;
+    border: 2px solid rgb(212, 118, 154);
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.player{
+    background-color: rgb(212, 118, 154);
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 300px;
+    box-shadow: 1px 1px 5px rgb(255, 149, 190);
+}
+
+.progress{
+    width: 250px;
+    margin-top: 10px;
+}
+
+.player button{
+    background: url(icon/play.png);
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+.player-lyric{
+    text-align: center;
+    padding-top: 70px;
+    border-bottom: 1px solid white;
+}
+
+.bottom-imgs {
+    margin-top: 50px;
+    
+}
+
+.main-bottom{
+    display: flex;
+    margin-left: 100px;
+}
+
+.main-bottom-2{
+    margin: 50px 0 50px 400px;
+}
+
+.bottom-img img{
+    text-align: center;
+    width: 400px;
+    border-radius: 2px;
+    border-left: 1px solid white;
+}
+
+.bottom-img-2 img{
+    border-right: 2px solid purple;
+}
+
+.bottom-lyric{
+    margin-top: 200px;
+ background-color: black;
+ padding: 60px 10px 0 20px;
+ border-bottom: 1px solid white;
+}
+
+.bottom-lyric-2{
+    background-color: black;
+    padding: 150px 20px 0;
+}
+
+.bottom-lyric-3{
+     background-color: black;
+     margin-bottom: 150px;
+     border-bottom: 2px solid purple;
+     border-right: 2px solid yellow;
+     padding: 100px 10px 0;
+}
+
+.last-lyric{
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.last-mini-lyric p{
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid rgb(212, 118, 154);
+}
+
+.foot{
+    margin-top: 100px;
+    background-color: black;
+    padding: 20px;
+}
